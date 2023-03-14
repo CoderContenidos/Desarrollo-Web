@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+h1, p, a {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #b2d6f9;
+    color: white;
+    padding: 10px;
+}
