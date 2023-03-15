@@ -1,0 +1,23 @@
+// Estilos para el header
+header {
+    background-color: $primary-color;
+  
+    .navbar {
+      &-brand {
+        color: $light-color;
+      }
+  
+      &-nav {
+        .nav-link {
+          color: $light-color;
+          &:hover {
+            color: $secondary-color;
+          }
+          &.active {
+            color: $secondary-color;
+            background-color: $light-color;
+          }
+        }
+      }
+    }
+  }

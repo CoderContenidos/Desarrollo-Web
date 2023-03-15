@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#carouselExampleIndicators {
+  margin-top: 20px;
+}
+#carouselExampleIndicators .carousel-control-prev,
+#carouselExampleIndicators .carousel-control-next {
+  width: 5%;
+}
+#carouselExampleIndicators .carousel-control-prev:hover,
+#carouselExampleIndicators .carousel-control-next:hover {
+  color: #007bff;
+}
+
+header {
+  background-color: #007bff;
+}
+header .navbar-brand {
+  color: #f8f9fa;
+}
+header .navbar-nav .nav-link {
+  color: #f8f9fa;
+}
+header .navbar-nav .nav-link:hover {
+  color: #6c757d;
+}
+header .navbar-nav .nav-link.active {
+  color: #6c757d;
+  background-color: #f8f9fa;
+}
+
+.col {
+  margin-top: 20px;
+  text-align: center;
+}
+.col img {
+  width: 100%;
+}
+.col p {
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

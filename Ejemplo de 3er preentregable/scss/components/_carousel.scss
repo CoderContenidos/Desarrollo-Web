@@ -1,0 +1,13 @@
+// Estilos para el carousel
+#carouselExampleIndicators {
+    margin-top: 20px;
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 5%;
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+  
